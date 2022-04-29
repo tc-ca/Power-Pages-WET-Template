@@ -1,0 +1,58 @@
+{% for language in page.languages %}
+    {% if language.code == "en" %}
+        {% assign en_url_substitution = language.url_substitution %}
+    {% else %}
+        {% assign fr_url_substitution = language.url_substitution %}
+    {% endif %}
+{% endfor -%}
+<script type="text/javascript">
+    var defTop = document.getElementById("def-top");       
+
+    defTop.outerHTML = wet.builder.appTop({                               
+            {% if website.selected_language.code == "en" %}
+                "appName": [{
+                    "text": "Web Experience Toolkit (WET)",
+                    "href": "#"
+                }], 
+                "lngLinks": [{"href":"/{{fr_url_substitution}}","lang":"fr","text":"Français"}],
+            {% else %}
+                "appName": [{
+                    "text": "Boîte à outils de l’expérience Web (BOEW)",
+                    "href": "#"
+                }], 
+                "lngLinks": [{"href":"/{{en_url_substitution}}","lang":"en","text":"English"}],
+            {% endif %}
+    
+				//"menuPath": "../ajax/appmenu-en.html",       
+                "customSearch": [{
+                    "action" : "https://www.canada.ca/{{website.selected_language.code}}/sr/srb.html", 
+                    "placeholder" : "Canada.ca",
+                    "id" : "wb-srch-q",
+                    "name" : "q",
+                    "method" : "get",
+                    "hiddenInput" : [{
+                        "name" : "cdn",
+                        "value" : "canada"
+                    }] 
+	            }],         
+                {% if user.id %}
+                "appSettings": [{"href": "{{sitemarkers['Profile'].url}}"}],
+                "signOut": [{"href": "{{website.sign_out_url_substitution}}"}],
+                {% else %}
+                "signIn": [{"href": "{{website.sign_in_url_substitution}}"}],
+                {% endif %}
+                "menuLinks":{{snippets["WET4 - menuLinks"]}},
+                "breadcrumbs":{{snippets["WET4 - breadcrumbs"]}},
+				"cdnEnv": "esdcprod"
+                });
+</script>
+    {% block title %}        
+        <h1 id="wb-cont">
+            {% comment %}
+            {%if user%}
+            <span class="hd-pre">{{user.fullname}}</span>
+            {%endif%}
+            {% endcomment %}
+            {% editable page 'adx_title' type: 'html', liquid: true %}
+        </h1>
+    {% endblock %}

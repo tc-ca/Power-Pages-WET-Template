@@ -1,0 +1,25 @@
+<!--</div>-->
+<!-- end main content -->
+{% include 'snippet' snippet_name:'Feedback' %}
+{% include 'snippet' snippet_name:'preFooter' %}
+
+</main>
+<div id="def-footer">
+    <!-- Write closure fall-back static file -->
+    <!-- footer-en.html -->
+</div>
+<!-- Write closure template -->
+<script>
+    var defFooter = document.getElementById("def-footer");
+    defFooter.outerHTML = wet.builder.appFooter({
+        "cdnEnv": "prod",
+        "showFeatures": false
+    });
+</script>
+<!-- Write closure template -->
+<script>
+    document.write(wet.builder.refFooter({
+        "cdnEnv": "prod",
+        "isApplication": true
+    }));
+</script>
