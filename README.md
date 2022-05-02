@@ -20,7 +20,7 @@ Websites -> Your website -> Change 'Header Template' to 'WET4 - Header' and 'Foo
 ### Portal Languages
 - English. Change the Code to 'en'
 - French. Change the Code to 'fr'
-Note: You may have duplicate English and French records. Please delete the unused ones.
+> ⚠️ **fail to set up the languages and their codes will result the header now showing.** You may have duplicate English and French records. Please delete the unused ones.
 ### Site Settings
 - DateTime/DateFormat
 ### Content Snippets
