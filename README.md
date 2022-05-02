@@ -39,6 +39,8 @@ Note: You may have duplicate English and French records. Please delete the unuse
 ## Step 5: Update the page template for existing Web Pages
 
 # Q&A
+## I don't see the header and get error on console 'wet is not defined'.
+Check if 'English' and 'French' is setup and their code is 'en' and 'fr'.
 ## Where to change WET version?
 Content Snippets -> Head/Bottom
 ## Where to enable/disable IsApplication?
