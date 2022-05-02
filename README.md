@@ -17,13 +17,17 @@ pac paportal upload --path "C:\portals\starter-portal"
 In the Portal Management app, change the 'Website' for the components below.
 ### Website Header and Footer
 Websites -> Your website -> Change 'Header Template' to 'WET4 - Header' and 'Footer Template' to 'WET4 - Footer'
+### Portal Languages
+- English. Change the Code to 'en'
+- French. Change the Code to 'fr'
+Note: You may have duplicate English and French records. Please delete the unused ones.
 ### Site Settings
 - DateTime/DateFormat
 ### Content Snippets
 - WET4 - breadcrumbs
 - WET4 - menuLinks
-- Head/Bottom (English)
-- Head/Bottom (French)
+- Head/Bottom (English). Please select the right Website language.
+- Head/Bottom (French). Please select the right Website language.
 ### Web Templates
 - WET - Header
 - WET - Footer
@@ -32,13 +36,15 @@ Websites -> Your website -> Change 'Header Template' to 'WET4 - Header' and 'Foo
 ### Page Template
 - Templates
 
-## Step 4: Update the page template for existing Web Pages
+## Step 5: Update the page template for existing Web Pages
 
 # Q&A
 ## Where to change WET version?
 Content Snippets -> Head/Bottom
 ## Where to enable/disable IsApplication?
 Content Snippets -> Head/Bottom -> Set isApplication to false. Do not forget to change the French one as well.
+## How do I create my own menu?
+Content Snippets -> menuLinks. It's in json format.
 
 
 
