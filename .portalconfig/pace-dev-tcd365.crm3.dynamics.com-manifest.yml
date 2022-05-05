@@ -9,17 +9,25 @@ adx_adplacement:
   CheckSum: 890edee813b96df19f7500f75bf6d520bf32d6a075e98863c2f1ade1971187d7
   IsDeleted: false
 adx_contentsnippet:
-- RecordId: 091c3c4c-2dc7-ec11-a7b6-0022486d6152
-  DisplayName: WET4 - menuLinks
-  CheckSum: 0b2bd8f3c30e76646d4101e583b0989fedcba0c449582f1876482b4abf948c44
-  IsDeleted: true
+- RecordId: 508e27bf-2dc7-ec11-a7b5-000d3a0a0c9c
+  DisplayName: Head/Bottom
+  CheckSum: 18e4fb0a3d7976ab7def5d22fab7d410588fbb3e911cf526889f4a16dc747b87
+  IsDeleted: false
 - RecordId: 5ca32604-2dc7-ec11-a7b5-000d3a0a0c9c
   DisplayName: WET4 - menuLinks
-  CheckSum: f5b76be72fe50a6cdf08974036047b3d4fe8c2f0886f66a5453f8f6f09d00074
+  CheckSum: ee8b135629be77dd5751febd1bded74c304c9ac55c27b4d118d98694d1335a8d
   IsDeleted: false
 - RecordId: 52b8b062-2ac7-ec11-a7b5-000d3a0a0c9c
   DisplayName: WET4 - breadcrumbs
-  CheckSum: 994eae016010193ef526bedd9dd0478ac8be1d00b4ee2a9a5a6c7923a1b0fc43
+  CheckSum: b299e1e1a685480a20263a617ebfa7daa7b5473a672bbcdda1620f797b4d5c34
+  IsDeleted: false
+- RecordId: 0f2409c0-3fca-ec11-a7b5-000d3a09d169
+  DisplayName: WET4 - AppName
+  CheckSum: c4d03026c05a74b3baf20652f6b1bfcc8e8e6712098cdf12e0fa0d81ea46e9b5
+  IsDeleted: false
+- RecordId: 225230b1-3fca-ec11-a7b5-000d3a09d169
+  DisplayName: WET4 - AppName
+  CheckSum: b50e172788ea12029ad8c2528e5d407505f42a0b43d3c55dfbd7ab058f6ddd15
   IsDeleted: false
 - RecordId: 741b3c4c-2dc7-ec11-a7b6-0022486d6152
   DisplayName: Social Share Widget Code Page Top
@@ -317,10 +325,6 @@ adx_contentsnippet:
   DisplayName: Header
   CheckSum: a40c5c18780bc5796b25149abfe1f2df0e58c6a046eb21b9c9eeae64ba837fbe
   IsDeleted: false
-- RecordId: 508e27bf-2dc7-ec11-a7b5-000d3a0a0c9c
-  DisplayName: Head/Bottom
-  CheckSum: 18e4fb0a3d7976ab7def5d22fab7d410588fbb3e911cf526889f4a16dc747b87
-  IsDeleted: false
 - RecordId: b3a6c899-2dc7-ec11-a7b5-000d3a0a0c9c
   DisplayName: Head/Bottom
   CheckSum: f425571914bf212e337a0fd5c4839bc25d54e6bc25a1a150d889f607fb18f0e0
@@ -347,11 +351,11 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: 9b1b3c4c-2dc7-ec11-a7b6-0022486d6152
   DisplayName: Browser Title Suffix
-  CheckSum: 7e729f1c433cea0aacb3c29ab7b611455a1c75e713e5be4550d04070443295a3
+  CheckSum: 04ada015f7ddbe9883d122a3d11d2117f8192e47049cfb9977596f87fe72445d
   IsDeleted: false
 - RecordId: 75cc5341-1cc7-ec11-a7b5-000d3a0a09f1
   DisplayName: Browser Title Suffix
-  CheckSum: 2d105f2bb19928476d3a353e35c398c928eed8d4bbe74cce384f19c37f52032a
+  CheckSum: 0d7da4e299403b6d2ea6995d61dbe8f896a8b026067b99d7eae76029d31c8e37
   IsDeleted: false
 - RecordId: dc1b3c4c-2dc7-ec11-a7b6-0022486d6152
   DisplayName: Account/SignIn/UsernameLabel
@@ -799,6 +803,14 @@ adx_sitemarker:
   CheckSum: b35d88aeb29736517704756e90251572d984c3d20deff775f1fffba1128320d2
   IsDeleted: false
 adx_sitesetting:
+- RecordId: ec6ba606-e3ca-ec11-a7b5-000d3a09d169
+  DisplayName: WET4 - IsExternal
+  CheckSum: 3b11cf95399d15252f91bc6e641b42b676cfa906ecf136da71268482cdbe2ad0
+  IsDeleted: false
+- RecordId: eac28ae1-3cca-ec11-a7b5-000d3a09d169
+  DisplayName: WET4 - Version
+  CheckSum: d2fe18d4f4d6fabd06c33bcdce405b812237b2b978586b950325c51b308a1d4f
+  IsDeleted: false
 - RecordId: e0974228-91eb-eb11-94f0-000d3a999477
   DisplayName: ThemeFeature
   CheckSum: 6b1d7ebc85fe6de4a956c520114180b2ee36a2220a801c734d20745a4b0dc10d
@@ -983,6 +995,10 @@ adx_sitesetting:
   DisplayName: DateTime/DateFormat
   CheckSum: 94e11e32a08094943f8a8e3ddf646bdb1fab299dcd41b9f547470df94326ba95
   IsDeleted: false
+- RecordId: 557974c8-3cca-ec11-a7b5-000d3a09d169
+  DisplayName: WET4 - IsApplication
+  CheckSum: f6549fda1abea8e26e39a485ff13a612fce9e2cecf18512f8739afa0a691be81
+  IsDeleted: false
 adx_tag:
 - RecordId: ba583045-1cc7-ec11-a7b5-000d3a0a0c9c
   DisplayName: CRM
@@ -1091,6 +1107,10 @@ adx_weblink:
   DisplayName: Profile
   CheckSum: 682e2d3fb8c3dad0ca49cbf25af23156b35263d14da2c376209709e072d46b3d
   IsDeleted: false
+- RecordId: a9a8875e-ecc7-ec11-a7b5-000d3a0a0c9c
+  DisplayName: Forth Section (fr)
+  CheckSum: 31cb7fc322b83e09af94b606aea78af0f4cd732e039257c896cd2e9c34328685
+  IsDeleted: false
 - RecordId: 391b3c4c-2dc7-ec11-a7b6-0022486d6152
   DisplayName: Subpage 1
   CheckSum: 86e0c4e1a211b80c74594f98d2f345872ddf0628ca5bab6131b39ad6b075b8f0
@@ -1119,6 +1139,10 @@ adx_weblink:
   DisplayName: Contact Us
   CheckSum: 384a01ff0d9179c1080074bd0b911d6a3f5a625c8aacf9cc49d1db017b3741de
   IsDeleted: false
+- RecordId: 80707d4c-ecc7-ec11-a7b5-000d3a0a0c9c
+  DisplayName: Forth Section
+  CheckSum: 25a3ada9042d9749196635c39c358c2dfe95f9f312a091513cbb0919d03cdd27
+  IsDeleted: false
 - RecordId: 63415347-1cc7-ec11-a7b5-000d3a0a09f1
   DisplayName: Subpage 2
   CheckSum: 548b1c8195592a484ec950218239c07e3be11a1d20ffdcd55d3af6589ac5ac3c
@@ -1139,9 +1163,17 @@ adx_weblink:
   DisplayName: Contact us
   CheckSum: ab8b0ed95e26af9fcc00cb4f04e18dd342b077840fb24dd1762f7a1cdc62bf51
   IsDeleted: false
+- RecordId: c3092338-0af0-4f7e-882c-83cef03d3535
+  DisplayName: Forth Section
+  CheckSum: fea2a10ee7a6f2b87660bfd4ddff959c4b45c00352d51065924caf025b428114
+  IsDeleted: false
 - RecordId: b8307079-1fd2-4525-9b40-838bab736faa
   DisplayName: Subpage 1
   CheckSum: 1b1fb4ebd374d0fc6cc57f00beb6af55c92ff382ac3a40ae95138930c34f58ee
+  IsDeleted: false
+- RecordId: a1da5607-ef65-44b0-a37f-99a7c9af23f5
+  DisplayName: Sub Section 1
+  CheckSum: 9876ffa706fac86e0223076c14e69065bb3bd3f365b8128a4e03933e5c8541ca
   IsDeleted: false
 - RecordId: 8f6b657c-0f5b-4201-8174-e0b60f4b92dd
   DisplayName: Pages
@@ -1150,22 +1182,6 @@ adx_weblink:
 - RecordId: 4a25e6b4-be62-43eb-8001-4cd44f067036
   DisplayName: Home
   CheckSum: 5bba1b22faa493cf883b4d997e541aad5f798a86871cdc262ef185f0c08a007c
-  IsDeleted: false
-- RecordId: a9a8875e-ecc7-ec11-a7b5-000d3a0a0c9c
-  DisplayName: Forth Section (fr)
-  CheckSum: 31cb7fc322b83e09af94b606aea78af0f4cd732e039257c896cd2e9c34328685
-  IsDeleted: false
-- RecordId: 80707d4c-ecc7-ec11-a7b5-000d3a0a0c9c
-  DisplayName: Forth Section
-  CheckSum: 25a3ada9042d9749196635c39c358c2dfe95f9f312a091513cbb0919d03cdd27
-  IsDeleted: false
-- RecordId: c3092338-0af0-4f7e-882c-83cef03d3535
-  DisplayName: Forth Section
-  CheckSum: fea2a10ee7a6f2b87660bfd4ddff959c4b45c00352d51065924caf025b428114
-  IsDeleted: false
-- RecordId: a1da5607-ef65-44b0-a37f-99a7c9af23f5
-  DisplayName: Sub Section 1
-  CheckSum: 9876ffa706fac86e0223076c14e69065bb3bd3f365b8128a4e03933e5c8541ca
   IsDeleted: false
 adx_weblinkset:
 - RecordId: 26d84346-2dc7-ec11-a7b6-0022486d6152
@@ -1221,6 +1237,10 @@ adx_webpage:
   DisplayName: Subpage 1
   CheckSum: 334dd344b5e54b9f3ab3b90eb04d0457321e6852cbe63aab8e5f3055b7deede2
   IsDeleted: false
+- RecordId: bdd71cec-ecc7-ec11-a7b5-000d3a0a09f1
+  DisplayName: Sub Section 1
+  CheckSum: a8878ad2cd7f19ceefdf05dd7144e403492c1ea6293987a6d114f96aa0a24d17
+  IsDeleted: false
 - RecordId: e3d74346-2dc7-ec11-a7b6-0022486d6152
   DisplayName: Search
   CheckSum: f24f9f605768191043591ced45bf4f5ae9fcc78e52fccc943c344e3880ebcdd0
@@ -1261,6 +1281,10 @@ adx_webpage:
   DisplayName: Home
   CheckSum: 8582cdbfc0225393fa0edca8c2af75b411f7609caa1d25d8f1416efb3e55b2b2
   IsDeleted: false
+- RecordId: bc2dba14-ecc7-ec11-a7b5-000d3a0a0c9c
+  DisplayName: Forth Section
+  CheckSum: abab0130b12660b4ffd890f2ce00e8c981b9b29787016b0c8e5b098bdb91c46f
+  IsDeleted: false
 - RecordId: d5d74346-2dc7-ec11-a7b6-0022486d6152
   DisplayName: Contact us
   CheckSum: da9618bdc6f8afeffb8698e432dcd0c789086ffd42f9fa9c4e6b003270d500b7
@@ -1285,6 +1309,10 @@ adx_webpage:
   DisplayName: Subpage 1
   CheckSum: d03e1bb091d39b00ed8d17703afe56269d4cf184be09a0bdbfbcd2fd5c240437
   IsDeleted: false
+- RecordId: edbdb830-54e2-4bd9-8344-746b057cf12b
+  DisplayName: Sub Section 1
+  CheckSum: e3283f5df76ddf1d2becbe15932d167007bfe63fd7d5da9a161eae8723946621
+  IsDeleted: false
 - RecordId: cc583045-1cc7-ec11-a7b5-000d3a0a0c9c
   DisplayName: Search
   CheckSum: 27ff6b33c98e97a5d7bc9d1a324478397771dfe287424a968c63dbb5aafc7aec
@@ -1305,6 +1333,10 @@ adx_webpage:
   DisplayName: Home
   CheckSum: 9d475fb4ed687ad98f9a341e9443f738fa580406cb342d6bfdffeb04f302941b
   IsDeleted: false
+- RecordId: 1aa531ee-957e-4455-a7e4-dddae83de0b7
+  DisplayName: Forth Section
+  CheckSum: 8d65620bef735de47bef506c80c0575fa88094458d5b55eaab2d2a106fb33334
+  IsDeleted: false
 - RecordId: 66415347-1cc7-ec11-a7b5-000d3a0a09f1
   DisplayName: Contact us
   CheckSum: 116716c27da78c6444b023c43f6de53593d0f0cf2eb9487878b491cf7f76616b
@@ -1312,22 +1344,6 @@ adx_webpage:
 - RecordId: 67415347-1cc7-ec11-a7b5-000d3a0a09f1
   DisplayName: Access Denied
   CheckSum: a27fca748a6f872586a2ace247c3db9c47537626a8bb386a84a4bf3f5b3f378e
-  IsDeleted: false
-- RecordId: bdd71cec-ecc7-ec11-a7b5-000d3a0a09f1
-  DisplayName: Sub Section 1
-  CheckSum: a8878ad2cd7f19ceefdf05dd7144e403492c1ea6293987a6d114f96aa0a24d17
-  IsDeleted: false
-- RecordId: bc2dba14-ecc7-ec11-a7b5-000d3a0a0c9c
-  DisplayName: Forth Section
-  CheckSum: abab0130b12660b4ffd890f2ce00e8c981b9b29787016b0c8e5b098bdb91c46f
-  IsDeleted: false
-- RecordId: edbdb830-54e2-4bd9-8344-746b057cf12b
-  DisplayName: Sub Section 1
-  CheckSum: e3283f5df76ddf1d2becbe15932d167007bfe63fd7d5da9a161eae8723946621
-  IsDeleted: false
-- RecordId: 1aa531ee-957e-4455-a7e4-dddae83de0b7
-  DisplayName: Forth Section
-  CheckSum: 8d65620bef735de47bef506c80c0575fa88094458d5b55eaab2d2a106fb33334
   IsDeleted: false
 adx_webpageaccesscontrolrule:
 - RecordId: d4583045-1cc7-ec11-a7b5-000d3a0a0c9c
@@ -1380,9 +1396,17 @@ adx_websitelanguage:
   CheckSum: ed6dc1eec4fcff583c035fc7ea3638d9019ad7f02ac927648cb4158f9232ac03
   IsDeleted: false
 adx_webtemplate:
+- RecordId: fa0565bb-e8c7-ec11-a7b5-000d3a0a0c9c
+  DisplayName: WET4 - Top Menu
+  CheckSum: 8eedea66e70a33a64ce987fc45f6548dec28806c8b7d65e45d79e392620a36d8
+  IsDeleted: false
 - RecordId: 4c66a41a-2ac7-ec11-a7b5-000d3a0a0c9c
   DisplayName: WET4 - Page Header
-  CheckSum: ca566bbf3df427479829b7933d44922408b6fecdfed303fd1e7fa522aee052a2
+  CheckSum: ee151d35e5f63977b489d872752f952c0b7b152be8c973e70f7d62aea0f6dcc6
+  IsDeleted: false
+- RecordId: a43b728e-e7c7-ec11-a7b5-000d3a0a0c9c
+  DisplayName: WET4 - Menu
+  CheckSum: 6910724619acb20ce9f22a0aee1d5c8a5e4ae4f20b071418b35e46fd911dddf1
   IsDeleted: false
 - RecordId: d51d48f9-29c7-ec11-a7b5-000d3a0a0c9c
   DisplayName: WET4 - Header
@@ -1571,14 +1595,6 @@ adx_webtemplate:
 - RecordId: de583045-1cc7-ec11-a7b5-000d3a0a0c9c
   DisplayName: Ad
   CheckSum: ec5d5dcd542884d73c0551dd2b082231cd04ed6d98b41cdadc9ff59383946611
-  IsDeleted: false
-- RecordId: fa0565bb-e8c7-ec11-a7b5-000d3a0a0c9c
-  DisplayName: WET4 - Top Menu
-  CheckSum: 8eedea66e70a33a64ce987fc45f6548dec28806c8b7d65e45d79e392620a36d8
-  IsDeleted: false
-- RecordId: a43b728e-e7c7-ec11-a7b5-000d3a0a0c9c
-  DisplayName: WET4 - Menu
-  CheckSum: 6910724619acb20ce9f22a0aee1d5c8a5e4ae4f20b071418b35e46fd911dddf1
   IsDeleted: false
 annotation:
 - RecordId: a4415347-1cc7-ec11-a7b5-000d3a0a09f1

@@ -1,10 +1,10 @@
-{% assign primary_nav = weblinks['Default'] %}
+{%- assign primary_nav = weblinks['Primary Navigation'] -%}
 [      
-  {% for link in primary_nav.weblinks %}
-    {% assign sublinks = link.weblinks %}
-    {% if sublinks.size == 0 %}
+  {%- for link in primary_nav.weblinks -%}
+    {%- assign sublinks = link.weblinks -%}
+    {%- if sublinks.size == 0 -%}
       {"text":"{{ link.name }}", "href":"{{ link.url }}"},
-    {% else %}
+    {%- else -%}
       {
         "text":"{{ link.name }}", "href":"{{ link.url }}",
         "subLinks":[
@@ -12,15 +12,15 @@
             "subhref": "{{ link.url }}",
             "subtext": "{{ link.name | default:link.title }}"
           },
-          {% for sublink in sublinks %}
+          {%- for sublink in sublinks -%}
             {
               "subhref": "{{ sublink.url }}",
               "subtext": "{{ sublink.name | default:sublink.title }}"
             },
-          {% endfor %}
+          {%- endfor -%}
         ]
       },
-    {% endif %}
-  {% endfor %}
+    {%- endif -%}
+  {%- endfor -%}
 ]
           

@@ -1,3 +1,6 @@
+- adx_name: WET4 - IsApplication
+  adx_sitesettingid: 557974c8-3cca-ec11-a7b5-000d3a09d169
+  adx_value: true
 - adx_name: DateTime/DateFormat
   adx_sitesettingid: 7d119aec-2dc7-ec11-a7b5-000d3a0a0c9c
   adx_value: yyyy-MM-dd
@@ -165,3 +168,9 @@
 - adx_name: ThemeFeature
   adx_sitesettingid: e0974228-91eb-eb11-94f0-000d3a999477
   adx_value: '{"status":"enable","selectedThemeId":"215708aa-2dcb-4ec1-829b-7121994ebcc3","siteSettingId":"e0974228-91eb-eb11-94f0-000d3a999477"}'
+- adx_name: WET4 - Version
+  adx_sitesettingid: eac28ae1-3cca-ec11-a7b5-000d3a09d169
+  adx_value: v4_0_43
+- adx_name: WET4 - IsExternal
+  adx_sitesettingid: ec6ba606-e3ca-ec11-a7b5-000d3a09d169
+  adx_value: true

@@ -1,0 +1,15 @@
+<script>
+    document.documentElement.lang = "{{website.selected_language.code}}";    
+</script>{% if settings['WET4 - IsExternal'] == "true" %}
+<script src="https://ssl-templates.services.gc.ca/app/cls/WET/gcweb/{{settings['WET4 - Version']}}/cdts/compiled/soyutils.js"></script>
+<script src="https://ssl-templates.services.gc.ca/app/cls/WET/gcweb/{{settings['WET4 - Version']}}/cdts/compiled/wet-{{website.selected_language.code}}.js"></script>
+{% else %}
+<script src="https://ssl-templates.services.gc.ca/app/cls/wet/gcintranet/{{settings['WET4 - Version']}}/cdts/compiled/soyutils.js"></script>
+<script src="https://ssl-templates.services.gc.ca/app/cls/wet/gcintranet/{{settings['WET4 - Version']}}/cdts/compiled/wet-{{website.selected_language.code}}.js"></script>
+{% endif %}
+<script type="text/javascript">
+    document.write(wet.builder.refTop({
+        "cdnEnv": "prod",
+        "isApplication": {{ settings['WET4 - IsApplication'] }}
+    }));
+</script>
