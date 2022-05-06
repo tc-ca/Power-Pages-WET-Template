@@ -1,6 +1,9 @@
-# Power-Apps-Portal-WET
+# About Power-Apps-Portal-WET
+The purpose of this Power Apps Portal template is to be able to easily implement the WET CDTS layer of the Canada.ca or intranet.canada.ca themes into a Power Apps Portal solution.
 
-Install Instructions:
+This will ensure that a Power Apps Portal App uses this template will be accessible, usable, interoperable, mobile friendly and multilingual.
+
+# Install Instructions:
 ## Step 1: Clone the repo
 
 ## Step 2: Install Microsoft Power Platform CLI
@@ -9,9 +12,9 @@ https://docs.microsoft.com/en-us/power-apps/developer/data-platform/powerapps-cl
 ## Step 3: Upload portal content
 ### Open Power Shell
 ### Auth
-pac auth create --url https://Myorg.crm.dynamics.com
+pac auth create --url https://Myorg.crm3.dynamics.com
 ### Upload
-pac paportal upload --path "C:\portals\starter-portal"
+pac paportal upload --path "C:\portals\tc-wet-cdts---tc-wet-cdts"
 
 ## Step 4: Point your portal to the new template
 In the Portal Management app, change the 'Website' for the components below.
@@ -20,21 +23,25 @@ Websites -> Your website -> Change 'Header Template' to 'WET4 - Header' and 'Foo
 ### Portal Languages
 - English. Change the Code to 'en'
 - French. Change the Code to 'fr'
-> ⚠️ **fail to set up the languages and their codes will result the header now showing.** You may have duplicate English and French records. Please delete the unused ones.
+> ⚠️ **fail to set up the languages and their codes will result the header now showing.** You may have duplicate English and French records. Please delete the unused ones (usually the 2nd ones in your list).
 ### Site Settings
 - DateTime/DateFormat
+- WET4 - IsApplication
+- WET4 - IsExternal
+- WET4 - Version
+
 ### Content Snippets
 - WET4 - breadcrumbs
-- WET4 - menuLinks
-- Head/Bottom (English). Please select the right Website language.
-- Head/Bottom (French). Please select the right Website language.
+- WET4 - menuLinks. By default, it's using the 'Primary Navigation' Web Link Sets.
+- Head/Bottom. Please select the right Website language.
+
 ### Web Templates
 - WET - Header
 - WET - Footer
 - WET - Page Header
 - WET - Full Page without Child Links
 ### Page Template
-- Templates
+- WET4 - Page with title
 
 ## Step 5: Update the page template for existing Web Pages
 
