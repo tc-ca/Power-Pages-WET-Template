@@ -1,0 +1,21 @@
+{%- if website.selected_language.code == "en" -%}
+<div class="pagedetails">
+  <dl id="wb-dtmd">
+    <dt>Date Modified&nbsp;: </dt>
+    <dd>
+      <date property="date Modified">2022-03-29</date>
+    </dd>
+    <dt>Version&nbsp;: </dt>
+    <dd property="version">1.0.0</dd>
+  </dl>
+</div>
+{%- else -%}
+<div class="pagedetails">
+    <dl id="wb-dtmd">
+        <dt>Date de modification&nbsp;: </dt>
+        <dd><date property="date Modified">2022-03-29</date></dd>
+        <dt>Version&nbsp;: </dt>
+        <dd property="version">1.0.0</dd>
+    </dl>
+</div>
+{%- endif -%}

@@ -33,6 +33,7 @@ Websites -> Your website -> Change 'Header Template' to 'WET4 - Header' and 'Foo
 ### Content Snippets
 - WET4 - breadcrumbs
 - WET4 - menuLinks. By default, it's using the 'Primary Navigation' Web Link Sets.
+- WET4 - prepreFooter. App version and modified dat on bottom of the page.
 - Head/Bottom. Please select the right Website language.
 
 ### Web Templates
