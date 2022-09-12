@@ -1,4 +1,4 @@
-# About Power-Pages-WET
+# About Power-Pages-WET-Template
 The purpose of this Power Pages template is to be able to easily implement the WET CDTS layer of the Canada.ca or intranet.canada.ca themes into a Power Pages solution.
 
 This will ensure that a Power Pages App uses this template will be accessible, usable, interoperable, mobile friendly and multilingual.
