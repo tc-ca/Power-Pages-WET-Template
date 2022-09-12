@@ -1,0 +1,34 @@
+{% block main %}
+<script src="/common.js"></script>
+{% include 'Page Copy' %}
+{% if page.adx_entitylist %}
+    {% include 'entity_list' key: page.adx_entitylist.id %}
+  {% endif %}
+
+  {% if page.adx_entityform %}
+    {% entityform id: page.adx_entityform.id %}
+  {% endif %}
+
+  {% if page.adx_webform %}
+    {% webform id: page.adx_webform.id %}
+  {% endif %}
+ <script>
+$(document).ready(function(){
+	addWETValidatorToForm('liquid_form');
+	if (typeof (entityFormClientValidate) != 'undefined') {
+		var originalValidationFunction = entityFormClientValidate;
+		if (originalValidationFunction && typeof (originalValidationFunction) == "function") {
+			entityFormClientValidate = function() {
+				originalValidationFunction.apply(this, arguments);
+				// do your custom validation here
+				$('#liquid_form').validate();
+				return $('#liquid_form').valid()&&originalValidationFunction();
+				// return false; // to prevent the form submit you need to return false
+				// end custom validation.
+				return true;
+			};
+		}
+	}
+});
+</script>
+			{% endblock %}
